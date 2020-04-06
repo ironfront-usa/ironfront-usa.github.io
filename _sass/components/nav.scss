@@ -1,0 +1,22 @@
+$nav_bg: #333;
+$link-color: #fff;
+$hover-color: #111;
+
+nav.site-wide {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: $nav_bg;
+
+    ul {
+        li { 
+            display: inline;
+            a {
+                color: $font-color;
+            }
+            a:hover {
+                background-color: $hover-color;
+            }
+        }
+    }
+}
