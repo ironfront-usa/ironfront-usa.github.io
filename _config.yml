@@ -1,0 +1,4 @@
+name: American Iron Front
+markdown: GFM
+permalink: /blog/:year/:month/:day/:title
+
