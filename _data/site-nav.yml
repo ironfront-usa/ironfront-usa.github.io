@@ -1,0 +1,11 @@
+sections:
+    - title: Home
+      url: /
+    - title: Who We Are
+      url: /who
+    - title: What We Do
+      url: /what
+    - title: Get Involved
+      url: /get-involved
+    - title: Support Us
+      url: /support

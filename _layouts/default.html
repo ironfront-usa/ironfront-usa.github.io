@@ -8,11 +8,9 @@
     <body>
         <nav class="site-wide">
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/who">Who We Are</a></li>
-                <li><a href="/what">What We Do</a></li>
-                <li><a href="/get-involved">Get Involved</a></li>
-                <li><a href="/support">Support Us</a></li>
+                {% for item in site.data.site-nav.sections %}
+                    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                {% endfor %}
             </ul>
         </nav>
         <div class="container">
